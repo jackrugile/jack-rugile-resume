@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Jack Rugile Resume",
+    "description": ""
+  },
+  "name": "Jack Rugile",
+  "title": "Front End Web and Game Developer",
+  "email": "jack@jackrugile.com",
+  "phone": "9703794748",
+  "location": "Palm Bay, FL",
+  "website": "https://jackrugile.com",
+  "social": "@jackrugile",
+  "description": "I'm a front end web and game developer with professional experience in the agency realm. My ambition is to create interactive experiences that bring people joy and solve problems. I take pride in my work and want to leave the web better than I found it. I'm looking to collaborate with a team of innovative professionals who are dedicated to their craft.",
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "company": "Consume & Create",
+        "title": "Senior Developer",
+        "startDate": "Aug 2021",
+        "endDate": "Apr 2024",
+        "link": "https://www.consumeandcreate.co",
+        "details": []
+      },
+      {
+        "company": "The North Face",
+        "title": "Senior Interactive Web Developer",
+        "startDate": "Jul 2019",
+        "endDate": "Jul 2021",
+        "link": "https://www.thenorthface.com",
+        "details": []
+      },
+      {
+        "company": "Legwork Studio",
+        "title": "Front End Developer",
+        "startDate": "Feb 2017",
+        "endDate": "May 2019",
+        "link": "https://x.com/legwork",
+        "details": [
+          "Worked on a variety of projects including microsites and games for companies like YouTube, Dominos, and Capital One.",
+          "Created a morphing WebGL particle system for a landing hub for Omnia Clubs, a reputable set of international nightclubs.",
+          "Leveraged React, Vue.js, Three.js, Pixi.js, Phaser, and many other tools alongside core vanilla JavaScript skills."
+        ]
+      },
+      {
+        "company": "The Firm Graphics",
+        "title": "Front End Developer",
+        "startDate": "Apr 2011",
+        "endDate": "Feb 2017",
+        "link": "https://thefirmgraphics.com",
+        "details": [
+          "Focused primarily on music industry sites for nightclubs and musicians like Michael Franti and The String Cheese Incident.",
+          "Developed websites for some of the largest music festivals, such as Electric Daisy Carnival and Electric Forest.",
+          "Built custom WordPress themes and admin setups to make the CMS experience as streamlined as possible for clients.",
+          "Created a schedule building app that allowed festival goers to plan and share their experience on social media."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "school": "The Art Institude of Colorado",
+        "degree": "Associate of Applied Science (AAS)",
+        "field": "Web Design and Interactive Media",
+        "startDate": "May 2009",
+        "endDate": "Mar 2011"
+      }
+    ]
+  }
+}
