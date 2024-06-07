@@ -1,10 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+import data from "./assets/data.json";
+
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  devtools: {
+    enabled: true,
+  },
+  devServer: {
+    host: "0.0.0.0",
+  },
   css: ["~/assets/css/index.css"],
   app: {
     head: {
-      title: "test",
+      title: data.meta.title,
       meta: [
         {
           charset: "utf-8",
@@ -13,7 +21,14 @@ export default defineNuxtConfig({
           name: "viewport",
           content: "width=device-width, initial-scale=1, viewport-fit=cover",
         },
-        { name: "format-detection", content: "telephone=no" },
+        {
+          name: "format-detection",
+          content: "telephone=no",
+        },
+        {
+          name: "description",
+          content: data.description,
+        },
       ],
     },
   },

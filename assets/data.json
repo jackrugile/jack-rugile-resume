@@ -1,15 +1,32 @@
 {
   "meta": {
     "title": "Resume | Jack Rugile",
-    "description": ""
+    "description": "Front end web and game developer with professional experience in the agency realm. Taking pride in my work to leave the web better than I found it."
   },
   "name": "Jack Rugile",
   "title": "Front End Web and Game Developer",
-  "email": "jack@jackrugile.com",
-  "phone": "9703794748",
-  "location": "Palm Bay, FL",
-  "website": "https://jackrugile.com",
-  "social": "@jackrugile",
+  "contact": [
+    {
+      "label": "email",
+      "value": "jack@jackrugile.com"
+    },
+    {
+      "label": "phone",
+      "value": "9703794748"
+    },
+    {
+      "label": "location",
+      "value": "Palm Bay, FL"
+    },
+    {
+      "label": "website",
+      "value": "https://jackrugile.com"
+    },
+    {
+      "label": "social",
+      "value": "@jackrugile"
+    }
+  ],
   "description": "I'm a front end web and game developer with professional experience in the agency realm. My ambition is to create interactive experiences that bring people joy and solve problems. I take pride in my work and want to leave the web better than I found it. I'm looking to collaborate with a team of innovative professionals who are dedicated to their craft.",
   "experience": {
     "title": "Experience",
