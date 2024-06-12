@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-family: "Lato", helvetica, sans-serif;
+  line-height: 1.75;
+  /* overflow: hidden; */
+}

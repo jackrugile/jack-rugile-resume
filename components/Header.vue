@@ -9,10 +9,8 @@ const props = defineProps(["name", "title"]);
 
 <style scoped>
 h1 {
-  color: red;
 }
 
 h2 {
-  color: blue;
 }
 </style>

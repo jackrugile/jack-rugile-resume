@@ -4,26 +4,26 @@
     "description": "Front end web and game developer with professional experience in the agency realm. Taking pride in my work to leave the web better than I found it."
   },
   "name": "Jack Rugile",
-  "title": "Front End Web and Game Developer",
+  "title": "Front End Web & Game Developer",
   "contact": [
     {
-      "label": "email",
+      "label": "Email",
       "value": "jack@jackrugile.com"
     },
     {
-      "label": "phone",
-      "value": "9703794748"
+      "label": "Phone",
+      "value": "(970) 379-4748"
     },
     {
-      "label": "location",
+      "label": "Location",
       "value": "Palm Bay, FL"
     },
     {
-      "label": "website",
+      "label": "Portfolio",
       "value": "https://jackrugile.com"
     },
     {
-      "label": "social",
+      "label": "LinkedIn, GitHub, CodePen",
       "value": "@jackrugile"
     }
   ],
@@ -83,6 +83,31 @@
         "field": "Web Design and Interactive Media",
         "startDate": "May 2009",
         "endDate": "Mar 2011"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "areas": [
+      {
+        "title": "Essentials",
+        "items": ["HTML", "CSS/Sass", "JavaScript"]
+      },
+      {
+        "title": "JavaScript",
+        "items": ["React", "Vue.js", "Three.js", "Pixi.js", "Phaser"]
+      },
+      {
+        "title": "Workflow",
+        "items": [
+          "Git (GitHub/Bitbucket)",
+          "Webpack/Parcel/Gulp",
+          "Pivotal/Jira"
+        ]
+      },
+      {
+        "title": "Other",
+        "items": ["PHP", "MySQL", "WordPress", "Photoshop/Illustrator"]
       }
     ]
   }
