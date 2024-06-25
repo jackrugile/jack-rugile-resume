@@ -31,7 +31,7 @@ ul {
   gap: calc(var(--unit) / 4);
 }
 
-li {
-  /* margin-bottom: calc(var(--unit) / 2); */
+li::marker {
+  content: "»  ";
 }
 </style>

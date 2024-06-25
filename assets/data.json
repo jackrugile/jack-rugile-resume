@@ -20,56 +20,88 @@
     },
     {
       "label": "Portfolio",
-      "value": "https://jackrugile.com"
+      "value": "jackrugile.com"
     },
     {
-      "label": "LinkedIn, GitHub, CodePen",
+      "label": "LinkedIn/GitHub",
       "value": "@jackrugile"
     }
   ],
-  "description": "I'm a front end web and game developer with professional experience in the agency realm. My ambition is to create interactive experiences that bring people joy and solve problems. I take pride in my work and want to leave the web better than I found it. I'm looking to collaborate with a team of innovative professionals who are dedicated to their craft.",
+  "description": "I'm a front end web and game developer with professional experience ranging from small creative studios to large corporations. My ambition is to create interactive experiences that bring people joy and solve problems. I take pride in my work and want to leave the web better than I found it. I'm looking to collaborate with a team of innovative professionals who are dedicated to their craft.",
   "experience": {
     "title": "Experience",
     "items": [
       {
         "company": "Consume & Create",
-        "title": "Senior Developer",
-        "startDate": "Aug 2021",
-        "endDate": "Apr 2024",
         "link": "https://www.consumeandcreate.co",
-        "details": []
+        "positions": [
+          {
+            "title": "Lead Developer",
+            "startDate": "Dec 2023",
+            "endDate": "Apr 2024"
+          },
+          {
+            "title": "Senior Developer",
+            "startDate": "Aug 2021",
+            "endDate": "Dec 2023"
+          }
+        ],
+        "details": [
+          "Worked primarily with Vue.js, Sanity, Contentful, Cloudflare, and Netlify to create engaging experiences that clients could control themselves.",
+          "Developed a web app utilizing the Web Speech API (Speech Recognition) to reduce the use of jargon and unnecessary language in meetings.",
+          "Used Three.js and device orientation events to create an interactive 360° photo tour of two New Belgium Brewing locations."
+        ]
       },
       {
         "company": "The North Face",
-        "title": "Senior Interactive Web Developer",
-        "startDate": "Jul 2019",
-        "endDate": "Jul 2021",
         "link": "https://www.thenorthface.com",
-        "details": []
+        "positions": [
+          {
+            "title": "Senior Interactive Web Developer",
+            "startDate": "Apr 2021",
+            "endDate": "Jul 2021"
+          },
+          {
+            "title": "Interactive Web Developer",
+            "startDate": "Jul 2019",
+            "endDate": "Apr 2021"
+          }
+        ],
+        "details": [
+          "Futurelight, Vectiv, Black Series, Braindead",
+          "Acted as a mentor and guide for two developers on my team."
+        ]
       },
       {
         "company": "Legwork Studio",
-        "title": "Front End Developer",
-        "startDate": "Feb 2017",
-        "endDate": "May 2019",
         "link": "https://x.com/legwork",
+        "positions": [
+          {
+            "title": "Front End Developer",
+            "startDate": "Feb 2017",
+            "endDate": "May 2019"
+          }
+        ],
         "details": [
-          "Worked on a variety of projects including microsites and games for companies like YouTube, Dominos, and Capital One.",
-          "Created a morphing WebGL particle system for a landing hub for Omnia Clubs, a reputable set of international nightclubs.",
-          "Leveraged React, Vue.js, Three.js, Pixi.js, Phaser, and many other tools alongside core vanilla JavaScript skills."
+          "Worked on a variety of projects including campaigns and games for companies like YouTube, Dominos, and Capital One.",
+          "Created a morphing WebGL particle system for a landing hub for OMNIA, a reputable set of international nightclubs.",
+          "Leveraged React, Vue.js, Three.js, Pixi.js, Phaser, and many other tools alongside vanilla JavaScript."
         ]
       },
       {
         "company": "The Firm Graphics",
-        "title": "Front End Developer",
-        "startDate": "Apr 2011",
-        "endDate": "Feb 2017",
         "link": "https://thefirmgraphics.com",
+        "positions": [
+          {
+            "title": "Front End Developer",
+            "startDate": "Apr 2011",
+            "endDate": "Feb 2017"
+          }
+        ],
         "details": [
-          "Focused primarily on music industry sites for nightclubs and musicians like Michael Franti and The String Cheese Incident.",
-          "Developed websites for some of the largest music festivals, such as Electric Daisy Carnival and Electric Forest.",
-          "Built custom WordPress themes and admin setups to make the CMS experience as streamlined as possible for clients.",
-          "Created a schedule building app that allowed festival goers to plan and share their experience on social media."
+          "Focused primarily on music industry sites for clients such as Electric Daisy Carnival, Electric Forest, Michael Franti, and The String Cheese Incident.",
+          "Created a schedule building app that allowed festival goers to plan and share their experience on social media.",
+          "Built custom WordPress themes and admin functionality to make the CMS experience as streamlined as possible for clients."
         ]
       }
     ]
@@ -82,7 +114,10 @@
         "degree": "Associate of Applied Science (AAS)",
         "field": "Web Design and Interactive Media",
         "startDate": "May 2009",
-        "endDate": "Mar 2011"
+        "endDate": "Mar 2011",
+        "details": [
+          "Graduated Summa Cum Laude and received the John Jellico Scholarship."
+        ]
       }
     ]
   },
@@ -94,20 +129,25 @@
         "items": ["HTML", "CSS/Sass", "JavaScript"]
       },
       {
-        "title": "JavaScript",
-        "items": ["React", "Vue.js", "Three.js", "Pixi.js", "Phaser"]
+        "title": "Libraries & Frameworks",
+        "items": ["Vue.js", "React", "Three.js", "Pixi.js", "Phaser"]
       },
       {
         "title": "Workflow",
         "items": [
+          "VS Code",
           "Git (GitHub/Bitbucket)",
-          "Webpack/Parcel/Gulp",
-          "Pivotal/Jira"
+          "Build (Vite/Webpack/Parcel/Gulp)"
         ]
       },
       {
         "title": "Other",
-        "items": ["PHP", "MySQL", "WordPress", "Photoshop/Illustrator"]
+        "items": [
+          "Deployment (Netlify/Cloudflare)",
+          "CMS (Sanity/Contentful/WordPress)",
+          "Basic PHP and SQL",
+          "Photoshop/Illustrator"
+        ]
       }
     ]
   }

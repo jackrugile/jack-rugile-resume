@@ -49,12 +49,11 @@ onUnmounted(() => {
 <style scoped>
 .container {
   background-color: #fff;
-  border-left: 1px dotted #ccc;
-  border-right: 1px dotted #ccc;
+  border: 1px dotted #ccc;
   display: flex;
   flex-direction: column;
   gap: var(--unit);
-  /* height: 11in; */
+  height: 11in;
   left: 50%;
   margin: 0 auto;
   padding: 0.5in;

@@ -3,11 +3,12 @@
 }
 
 html {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 body {
   font-family: "Lato", helvetica, sans-serif;
-  line-height: 1.75;
+  line-height: 1.65;
+  text-wrap: pretty;
   /* overflow: hidden; */
 }
