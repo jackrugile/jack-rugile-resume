@@ -3,14 +3,16 @@ const props = defineProps(["name", "title"]);
 </script>
 
 <template>
-  <h1>{{ name }}</h1>
-  <h2>{{ title }}</h2>
+  <header>
+    <h1>{{ name }}</h1>
+    <h2>{{ title }}</h2>
+  </header>
 </template>
 
 <style scoped>
-h1 {
-}
-
-h2 {
+header {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--unit) / 2);
 }
 </style>

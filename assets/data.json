@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Resume | Jack Rugile",
-    "description": "Front end web and game developer with professional experience in the agency realm. Taking pride in my work to leave the web better than I found it."
+    "description": "Front end web and game developer with 10+ years experience ranging from small creative studios to large corporations. Taking pride in my work to leave the web better than I found it."
   },
   "name": "Jack Rugile",
   "title": "Front End Web & Game Developer",
@@ -27,7 +27,7 @@
       "value": "@jackrugile"
     }
   ],
-  "description": "I'm a front end web and game developer with professional experience ranging from small creative studios to large corporations. My ambition is to create interactive experiences that bring people joy and solve problems. I take pride in my work and want to leave the web better than I found it. I'm looking to collaborate with a team of innovative professionals who are dedicated to their craft.",
+  "description": "I’m a front end web and game developer with 10+ years experience ranging from small creative studios to large corporations. My ambition is to create interactive experiences that bring people joy and solve problems. I take pride in my work and want to leave the web better than I found it. I’m looking to collaborate with a team of innovative professionals who are dedicated to their craft.",
   "experience": {
     "title": "Experience",
     "items": [
@@ -47,7 +47,7 @@
           }
         ],
         "details": [
-          "Worked primarily with Vue.js, Sanity, Contentful, Cloudflare, and Netlify to create engaging experiences that clients could control themselves.",
+          "Worked primarily with Vue.js/Nuxt, Sanity, Contentful, Cloudflare, and Netlify to create engaging experiences that clients could control themselves.",
           "Developed a web app utilizing the Web Speech API (Speech Recognition) to reduce the use of jargon and unnecessary language in meetings.",
           "Used Three.js and device orientation events to create an interactive 360° photo tour of two New Belgium Brewing locations."
         ]
@@ -68,8 +68,9 @@
           }
         ],
         "details": [
-          "Futurelight, Vectiv, Black Series, Braindead",
-          "Acted as a mentor and guide for two developers on my team."
+          "Successfully launched custom sites and campaigns for product lines such as Futurelight, Vectiv, Black Series, and the Braindead.",
+          "Built a collection of reusable Vue.js components that could be be flexibly used for multiple campaigns and adhered to brand style guidelines.",
+          "Guided and mentored two developers on my team to create a productive and communicative department."
         ]
       },
       {
@@ -101,7 +102,7 @@
         "details": [
           "Focused primarily on music industry sites for clients such as Electric Daisy Carnival, Electric Forest, Michael Franti, and The String Cheese Incident.",
           "Created a schedule building app that allowed festival goers to plan and share their experience on social media.",
-          "Built custom WordPress themes and admin functionality to make the CMS experience as streamlined as possible for clients."
+          "Built custom WordPress themes and admin functionality to make the CMS experience as flexible as possible for clients."
         ]
       }
     ]
@@ -125,28 +126,47 @@
     "title": "Skills",
     "areas": [
       {
-        "title": "Essentials",
-        "items": ["HTML", "CSS/Sass", "JavaScript"]
+        "title": "Core",
+        "items": [
+          "HTML",
+          "CSS/Sass",
+          "JavaScript",
+          "Accessibility",
+          "Performance",
+          "SEO"
+        ]
       },
       {
         "title": "Libraries & Frameworks",
-        "items": ["Vue.js", "React", "Three.js", "Pixi.js", "Phaser"]
-      },
-      {
-        "title": "Workflow",
         "items": [
-          "VS Code",
-          "Git (GitHub/Bitbucket)",
-          "Build (Vite/Webpack/Parcel/Gulp)"
+          "Vue.js/Nuxt",
+          "React",
+          "Three.js",
+          "GSAP",
+          "Pixi.js",
+          "Phaser"
         ]
       },
       {
         "title": "Other",
         "items": [
-          "Deployment (Netlify/Cloudflare)",
+          "VS Code",
+          "Git (GitHub/Bitbucket)",
+          "Build (Vite/Webpack/Parcel/Gulp)",
+          "Deploy (Netlify/Cloudflare)",
           "CMS (Sanity/Contentful/WordPress)",
-          "Basic PHP and SQL",
-          "Photoshop/Illustrator"
+          "Design (Adobe CC/Figma)"
+        ]
+      },
+      {
+        "title": "Personal",
+        "items": [
+          "Husband of lovely wife",
+          "Father of two wild boys",
+          "Music maker",
+          "PC gamer",
+          "Coffee consumer",
+          "Beer imbiber"
         ]
       }
     ]

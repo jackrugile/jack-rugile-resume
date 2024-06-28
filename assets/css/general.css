@@ -10,5 +10,12 @@ body {
   font-family: "Lato", helvetica, sans-serif;
   line-height: 1.65;
   text-wrap: pretty;
-  /* overflow: hidden; */
+  overflow: hidden;
+}
+
+@media print {
+  html,
+  body {
+    overflow: hidden;
+  }
 }

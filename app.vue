@@ -25,13 +25,24 @@ function scaleContainer() {
   container.value.style.transform = `translate3d(-50%, -50%, 0) scale(${scale})`;
 }
 
+function onResize() {
+  scaleContainer();
+}
+
+function onBeforePrint() {
+  window.scrollTo(0, 0);
+}
+
 onMounted(() => {
-  // window.addEventListener("resize", scaleContainer);
-  // scaleContainer();
+  window.addEventListener("resize", onResize);
+  window.addEventListener("beforeprint", onBeforePrint);
+
+  scaleContainer();
 });
 
 onUnmounted(() => {
-  // window.removeEventListener("resize", scaleContainer);
+  window.removeEventListener("resize", onResize);
+  window.removeEventListener("beforeprint", onBeforePrint);
 });
 </script>
 
@@ -41,15 +52,14 @@ onUnmounted(() => {
     <Contact :items="data.contact" />
     <Statement :description="data.description" />
     <Experience :title="data.experience.title" :items="data.experience.items" />
-    <Education :title="data.education.title" :items="data.education.items" />
     <Skills :title="data.skills.title" :areas="data.skills.areas" />
+    <Education :title="data.education.title" :items="data.education.items" />
   </div>
 </template>
 
 <style scoped>
 .container {
   background-color: #fff;
-  border: 1px dotted #ccc;
   display: flex;
   flex-direction: column;
   gap: var(--unit);
@@ -57,14 +67,14 @@ onUnmounted(() => {
   left: 50%;
   margin: 0 auto;
   padding: 0.5in;
-  /* position: absolute; */
+  position: absolute;
   top: 50%;
+  transform: translate3d(-50%, -50%, 0);
   width: 8.5in;
 }
 
 @media print {
   .container {
-    border: none;
     position: static;
     transform: none !important;
   }

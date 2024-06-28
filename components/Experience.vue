@@ -46,7 +46,7 @@ const props = defineProps(["title", "items"]);
 }
 
 h4 {
-  grid-column: 1 / 3;
+  grid-column: span 2;
 }
 
 /* .titles {
