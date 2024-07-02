@@ -102,7 +102,7 @@
         "details": [
           "Focused primarily on music industry sites for clients such as Electric Daisy Carnival, Electric Forest, Michael Franti, and The String Cheese Incident.",
           "Created a schedule building app that allowed festival goers to plan and share their experience on social media.",
-          "Built custom WordPress themes and admin functionality to make the CMS experience as flexible as possible for clients."
+          "Built custom WordPress themes with PHP and admin functionality to make the CMS experience as flexible as possible for clients."
         ]
       }
     ]
@@ -131,9 +131,9 @@
           "HTML",
           "CSS/Sass",
           "JavaScript",
+          "PHP",
           "Accessibility",
-          "Performance",
-          "SEO"
+          "Performance/SEO"
         ]
       },
       {
